@@ -9,3 +9,9 @@ The aim of this project was to create a programme which reads data (integers) fr
 After researching different sorting algorithms, the decision was made to use *quicksort*. *Quicksort* chooses a pivot point (usually the element furthest to the right), then creates a list of elements smaller than or equal to the pivot and another list containing elements greater than the pivot. This process is then repeated iteratively, as can be seen in the following diagram:
 
 ![alt text](https://www.crio.do/blog/content/images/size/w2400/2022/01/Quick-Sort-Algorithm-flow.png)
+
+*Quicksort* was used as its average time complexity case is O(n*logn).
+
+## The data types used
+
+The integer data was stored in an ArrayList. LinkedLists were also initially considered, but the general consensus online is that ArrayLists are more efficient for handling large amounts of data.
