@@ -153,8 +153,14 @@ public class Main {
         System.out.println(rawData);
 
         ArrayList<Integer> sortedData;
+        long start = System.currentTimeMillis();
         sortedData = Main.quickSort(rawData);
+        long end = System.currentTimeMillis();
+
         System.out.println(sortedData);
+
+        long elapsedTime = end - start;
+        System.out.println(elapsedTime);
 
         double median;
         median = Main.findMedian(sortedData);
